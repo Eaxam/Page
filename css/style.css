@@ -1,23 +1,25 @@
 body{
-  background-color: #533d94
+  background-color: #050536
+}
+.container{
+  width: 1300px;
+  height: 625px;
 }
 .box{
   width: 200px;
-  height: 250px;
+  height: 625px;
+  float: left;
   background-color: green;
 }
-.box2{
+.content{
+  width: 1300px;
+  height: 625px;
+  background-color: brown;
+  padding-left: 20px;
+}
+.friend{
   width: 200px;
-  height: 250px;
-  background-color: green;
-}
-.box3{
-  width: 200px;
-  height: 250px;
-  background-color: green;
-}
-.panell{
-  width: 300px;
-  height: 800px;
-  background-color: blue;
+  height: 625px;
+  float: right;
+  background-color: chartreuse;
 }
